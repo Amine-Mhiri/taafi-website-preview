@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Alaa Eldakrouri · Home page options</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,300&family=Hanken+Grotesk:wght@400;500;600&family=Markazi+Text:wght@500&display=swap">
+<style>
+  :root {
+    --cream: #EDE6D6; --paper: #F5F1E7; --sage: #A9AD88; --taupe: #C9C2AC; --deep: #3F4134; --ink: #23241C; --muted: #5B5C4C;
+    --display: "Newsreader", Georgia, serif; --text: "Hanken Grotesk", system-ui, sans-serif; --ar: "Markazi Text", "Noto Naskh Arabic", serif;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--paper); color: var(--ink); font-family: var(--text); line-height: 1.55; }
+  .wrap { max-width: 1080px; margin: 0 auto; padding-inline: 20px; padding-block: 56px 72px; }
+  .eyebrow { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; color: var(--muted); }
+  h1 { font-family: var(--display); font-weight: 400; font-size: clamp(38px, 6vw, 64px); line-height: 1.05; margin: 10px 0 12px; }
+  h1 em { font-weight: 300; color: var(--deep); }
+  .ar { font-family: var(--ar); font-size: 24px; color: var(--deep); margin: 0; letter-spacing: 0; }
+  .lede { max-width: 60ch; color: var(--muted); margin: 18px 0 0; font-size: 17px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 22px; margin-top: 40px; }
+  .card { background: var(--cream); border: 1px solid var(--taupe); border-radius: 10px; padding: 28px; display: grid; gap: 14px; }
+  .card.v1 { background: var(--deep); color: var(--cream); border-color: var(--deep); }
+  .card.v1 .muted { color: var(--taupe); }
+  .num { font-size: 12px; letter-spacing: .16em; text-transform: uppercase; }
+  .card h2 { font-family: var(--display); font-weight: 400; font-size: 40px; margin: 0; line-height: 1.1; }
+  .card .ar-name { font-family: var(--ar); font-size: 26px; letter-spacing: 0; margin: -6px 0 0; }
+  .muted { color: var(--muted); font-size: 15px; margin: 0; }
+  .links { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  .btn { display: flex; align-items: center; justify-content: center; min-height: 50px; border-radius: 999px; text-decoration: none; font-weight: 600; font-size: 15px; border: 1px solid currentColor; color: inherit; }
+  .btn.solid { background: var(--cream); color: var(--deep); border-color: var(--cream); }
+  .card.v2 .btn.solid { background: var(--deep); color: var(--cream); border-color: var(--deep); }
+  .btn .arab { font-family: var(--ar); font-size: 20px; letter-spacing: 0; }
+  .alt { font-size: 14px; }
+  .alt a { color: inherit; }
+  footer { margin-top: 44px; font-size: 13.5px; color: var(--muted); max-width: 70ch; }
+  a:focus-visible { outline: 2px solid var(--sage); outline-offset: 3px; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="eyebrow">Alaa Eldakrouri · Taafi Within · Home page options</div>
+  <h1>Two directions for your <em>new home page</em></h1>
+  <p class="ar" lang="ar" dir="rtl">اتجاهين للصفحة الرئيسية الجديدة، اختاري اللي حاسّة إنه بيعبّر عنك</p>
+  <p class="lede">Each one is a full home page in English and in Arabic. Open both, scroll to the end, and tell us which one feels like you. We can also combine parts of the two.</p>
+
+  <div class="grid">
+    <section class="card v1" aria-labelledby="v1-title">
+      <div class="num">Option 1</div>
+      <h2 id="v1-title">Presence</h2>
+      <p class="ar-name" lang="ar" dir="rtl">الحضور</p>
+      <p class="muted">Bold and commanding: deep olive, your portrait at the centre, a strong statement beside it.</p>
+      <div class="links">
+        <a class="btn solid" href="v1-presence/en/">English</a>
+        <a class="btn" href="v1-presence/ar/"><span class="arab" lang="ar">العربية</span></a>
+      </div>
+      <p class="alt">Client stories as WhatsApp screenshots: <a href="v1-presence/en/?stories=screens">English</a> · <a href="v1-presence/ar/?stories=screens" lang="ar">العربية</a></p>
+    </section>
+
+    <section class="card v2" aria-labelledby="v2-title">
+      <div class="num">Option 2</div>
+      <h2 id="v2-title">Ground</h2>
+      <p class="ar-name" lang="ar" dir="rtl">الجذور</p>
+      <p class="muted">Warm and rooted: paper textures, hand-drawn botanicals, body · mind · soul up front.</p>
+      <div class="links">
+        <a class="btn solid" href="v2-ground/en/">English</a>
+        <a class="btn" href="v2-ground/ar/"><span class="arab" lang="ar">العربية</span></a>
+      </div>
+      <p class="alt">Client stories as WhatsApp screenshots: <a href="v2-ground/en/?stories=screens">English</a> · <a href="v2-ground/ar/?stories=screens" lang="ar">العربية</a></p>
+    </section>
+  </div>
+
+  <footer>These are design previews, not the live website. Prices, the WhatsApp community link, the venue and client consent for the testimonials are marked "pending" on the pages. Photos are placeholders until the photoshoot.</footer>
+</main>
+</body>
+</html>
